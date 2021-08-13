@@ -1,0 +1,112 @@
+body {
+	font-family: "Helvetica";
+	background-color: black;
+}
+h1 {
+	font-family: "Courier New";
+	color: white;
+}
+h2 {
+	font-family: "Courier New";
+	color: white;
+}
+h3 {
+	font-family: "Courier New";
+	color: white;
+}
+h4 {
+	font-family: "Courier New";
+	color: white;
+}
+h5 {
+	font-family: "Courier New";
+	color: white;
+}
+h6 {
+	font-family: "Courier New";
+	color: white;
+}
+
+p {
+	background-color: black;
+	color: white;
+	white-space: pre;
+}
+p3 {
+	background-color: white;
+	color: black;
+	white-space: pre;
+}
+p2 {
+top:110px;
+
+}
+div {
+	background-color: gray;
+	width: 220px;
+	height: 100px;
+	margin: 10px;
+	padding: 5px;
+}
+
+.div-estatico {
+	background-color: lightyellow;
+}
+
+.div-relativo {
+	background-color: lightblue;
+	position: relative;
+	left: 120px;
+}
+
+.div-absoluto {
+	background-color: green;
+	position: absolute;
+	left: 300px;
+	top: 550px;
+	color: white;
+}
+
+.div-fijo {
+	background-color: black;
+	position: fixed;
+	width:2900px;
+	height: 190px;
+	margin: 10px;
+	padding: 1px;
+	left: 1px;
+	top: -10px;
+	color: white;
+	/*-----*/
+	display: flex;
+  align-items: flex-end;
+}
+.box02{
+  width: 1190px;
+  height: 50px;
+  background: black;
+}
+
+.box03{
+  width: 3000px;
+  height: 150px;
+  background: black;
+}
+
+nav li{
+    float: left;
+		margin: 0px;
+    width:16%;
+    /*padding:5px 5px;   */
+    background-color:#000;
+    border:1px solid #fff;
+    text-align:center;
+    color: #fff;
+		list-style: none;
+    }
+
+.footer {
+		width: 100%;
+		background-color: #D3D3D3;
+		font-size: 12px;
+}
